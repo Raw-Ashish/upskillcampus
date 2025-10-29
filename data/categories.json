@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "Videos",
+    "name": "Videos",
+    "bg": "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1600&auto=format&fit=crop",
+    "description": "Tender tales and heartfelt plots. Soft aesthetics, story-first.",
+    "children": [
+      {
+        "slug": "Savita-Bhabhi-Videos",
+        "name": "Savita Bhabhi Videos"
+      },
+      {
+        "slug": "Savita-Bhabhi-Movies",
+        "name": "Savita Bhabhi Movies"
+      },
+      {
+        "slug": "Videos-Desi-Wala-Desires",
+        "name": "Desi Wala Desires"
+      }
+    ]
+  },
+  {
+    
+    "name": "Hindi Comics",
+    "bg": "https://images.unsplash.com/photo-1542367597-8849eb1f5030?q=80&w=1600&auto=format&fit=crop",
+    "description": "High energy, bold lines, and dynamic panels.",
+    "children": [
+      {
+        "slug": "Savita-Bhabhi",
+        "name": "Savita Bhabhi"
+      },
+      {
+        "slug": "Savita-Bhabhi-in-goa",
+        "name": "Savita Bhabhi in goa"
+      },
+      {
+        "slug": "Sarita-Bhabhi",
+        "name": "Sarita Bhabhi"
+      }
+    ]
+  },
+  {
+    "slug": "English Comics",
+    "name": "English Comics",
+    "bg": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+    "description": "Otherworldly adventures and magical settings.",
+    "children": [
+      {
+        "slug": "Savita Bhabhi",
+        "name": "Savita Bhabhi"
+      },
+      {
+        "slug": "Savita Bhabhi",
+        "name": "Savita Bhabhi"
+      },
+      {
+        "slug": "Savita Bhabhi",
+        "name": "Savita Bhabhi"
+      }
+    ]
+  },
+  {
+    "slug": "comedy",
+    "name": "Comedy",
+    "bg": "https://images.unsplash.com/photo-1541976076758-347942db1970?q=80&w=1600&auto=format&fit=crop",
+    "description": "Light-hearted, funny, and cheeky frames.",
+    "children": [
+      {
+        "slug": "comedy-satire",
+        "name": "Satire"
+      },
+      {
+        "slug": "comedy-parody",
+        "name": "Parody"
+      },
+      {
+        "slug": "comedy-slapstick",
+        "name": "Slapstick"
+      }
+    ]
+  }
+]
