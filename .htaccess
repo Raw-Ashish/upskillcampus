@@ -1,0 +1,3 @@
+
+Options -Indexes
+AddType application/json .json
