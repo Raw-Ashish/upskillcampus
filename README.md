@@ -53,55 +53,14 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 
 /cms-project
 │
-├── index.html # Homepage (shows posts dynamically)
-├── admin.php # Admin dashboard (form interface)
-├── posts-data.js # JSON file storing all posts
+├── index.html                # Homepage (shows posts dynamically)
+├── admin.php                 # Admin dashboard (form interface)
+├── posts-data.js             # JSON file storing all posts
+│
 ├── assets/
-│ ├── css/ # Stylesheets
-│ ├── js/ # Frontend scripts
-│ └── images/ # Thumbnails / uploaded images
+│   ├── css/                  # Stylesheets
+│   ├── js/                   # Frontend scripts
+│   └── images/               # Thumbnails / uploaded images
+│
 └── includes/
-└── functions.php # PHP file handling logic
-
-🧠 Technologies Used
-
-Frontend: HTML5, CSS3, JavaScript
-
-Backend: PHP
-
-Storage: JSON File System
-
-Hosting: InfinityFree (Free PHP Hosting)
-
-📊 Future Enhancements
-
-🔒 Payment Gateway Integration (Razorpay/Stripe)
-
-👥 Multi-Admin Role Management
-
-📈 Post Analytics Dashboard
-
-💾 Migration to MySQL or Firebase
-
-🔐 Enhanced Security & Session Management
-
-🧑‍💻 Developer
-
-Author: Ashish Rawat
-Internship Program: Full Stack Web Development — Upskill Campus × UniConverge Technologies Pvt. Ltd.
-Duration: 6 Weeks
-Mentor: The IoT Academy Team
-
-🌐 Connect
-
-📧 Email: your-email@example.com
-
-💼 LinkedIn: linkedin.com/in/yourprofile
-
-🧠 GitHub: github.com/yourusername
-
-🏁 License
-
-This project is released under the MIT License
-.
-Feel free to modify, share, or build upon it for educational or personal use.
+    └── functions.php         # PHP file handling logic
