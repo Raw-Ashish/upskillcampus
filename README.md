@@ -1,3 +1,107 @@
-🚀 Lightweight Blog CMS with Premium AccessA Database-Free Content Management SystemProject Status: Completed (Industrial Internship Project)DetailStatusLive Demo[Insert Live Demo URL Here]GitHub Repositoryhttps://github.com/ashishrawat/upskillcampusFinal Report[Internship Report PDF Link]Technology StackPHP, JSON, HTML/CSS✨ OverviewThis project is a lightweight, database-free Content Management System (CMS) designed specifically for small-scale blogs and platforms hosted on resource-constrained environments (like free hosting).The core innovation is replacing traditional SQL databases (like MySQL) with JSON file storage, managed securely via PHP's file handling functions. This simplifies deployment and drastically reduces hosting overhead.A key feature is the Premium Access Module, which allows administrators to monetize content by restricting access to specific posts, making it a viable, industrial-relevant solution.💡 Key Features & Industrial RelevanceFeatureDescriptionIndustrial RelevanceDatabase-Free ArchitectureAll content (posts, settings) is stored and retrieved from a single JSON file.Ideal for Microservices and Serverless/Edge architectures where lightweight persistence is prioritized over heavy database infrastructure.Data Integrity (flock())Implemented PHP's flock() (File Locking Protocol) to prevent concurrent write conflicts and data corruption during simultaneous Admin updates.Demonstrates understanding of Concurrency and Data Durability—a critical issue in any real-time data environment.Full CRUD FunctionalityAdmin panel supports Create, Read, Update, and Delete operations for posts.Essential skill validation for any Full-Stack Developer role.Premium Content ModulePosts can be flagged as premium, triggering server-side logic to display only a teaser unless a valid session token is detected.Practical exposure to implementing Monetization and Access Control logic.🛠️ Technology StackComponentTechnologyPurposeBackend LogicPHPCore application logic, file I/O, JSON encoding/decoding, and security controls.Data StorageJSONLightweight, human-readable data persistence (acting as the database).FrontendHTML, CSS (Vanilla)User interface and admin forms.⚙️ Installation and SetupPrerequisitesA web server running PHP 7.4 or higher.File system write permissions for the PHP script to access the data directory.StepsClone the Repository:git clone [https://github.com/ashishrawat/upskillcampus.git](https://github.com/ashishrawat/upskillcampus.git)
-cd upskillcampus
-Deployment: Place the project files onto your web server's public directory (e.g., htdocs or public_html).Ensure Permissions: Verify that the PHP script has write access to the directory where the posts-data.json file is located (or will be created).Access: Navigate to the project's root URL in your browser to view the blog. Navigate to /admin to access the Content Management interface.🎯 Future Work ScopeFuture enhancements to improve the scalability and robustness of the CMS include:Payment Gateway Integration: Implementing a live payment service (e.g., Stripe) to replace the current token-based premium access simulation.Data Structure Optimization: Refactoring the single JSON file structure into multiple files (one per post ID) to reduce JSON Parsing Latency and Memory Buffer requirements for large blogs.User Roles: Introducing multi-user administration roles (Admin, Editor, Contributor).Developed as an Industrial Internship Project by Ashish RawatIn collaboration with UniConverge Technologies Pvt. Ltd. (UCT), Upskill Campus, and The IoT Academy.
+# 🧩 Content Management System (CMS) with Premium Access Feature
+
+A lightweight, database-free **Content Management System (CMS)** built using **PHP, HTML, CSS, and JavaScript**, designed for small-scale blogs and websites hosted on **free servers** (like InfinityFree).  
+This CMS uses **JSON files** instead of a traditional database, making it fast, portable, and easy to maintain — while also supporting **premium content access** for paid users.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Demo URL:** [View Live Project](https://your-demo-link-here.com)
+
+*(Replace the above link with your actual hosting URL once deployed.)*
+
+---
+
+## 📖 Project Overview
+
+This CMS allows admin users to **create, edit, and delete posts** from a dashboard interface.  
+All post data is stored in a JSON file (`posts-data.js`) instead of MySQL.  
+The frontend dynamically fetches and displays posts using JavaScript, while **premium posts** remain locked until unlocked through a **payment token**.
+
+---
+
+## 🧱 Core Features
+
+✅ Admin dashboard to manage posts (title, description, category, and image).  
+✅ Dynamic JSON-based data storage (no MySQL required).  
+✅ Frontend fetches and displays posts automatically.  
+✅ Premium content lock/unlock feature.  
+✅ Category-wise and recent-post display.  
+✅ Fully responsive design for mobile and desktop.  
+✅ Lightweight — perfect for free hosting services like InfinityFree.
+
+---
+
+## 🧩 Architecture Overview
+
+**1. Presentation Layer (Frontend):**
+- HTML, CSS, and JavaScript
+- Displays posts, handles interactions, and manages premium content lock/unlock UI.
+
+**2. Application Layer (Backend):**
+- PHP-based CMS logic (CRUD operations)
+- Validates input, encodes data to JSON, and manages file operations.
+
+**3. Data Layer (Storage):**
+- `posts-data.js` stores all post metadata.
+- Acts as a lightweight alternative to a database.
+
+---
+
+## 📂 Folder Structure
+
+/cms-project
+│
+├── index.html # Homepage (shows posts dynamically)
+├── admin.php # Admin dashboard (form interface)
+├── posts-data.js # JSON file storing all posts
+├── assets/
+│ ├── css/ # Stylesheets
+│ ├── js/ # Frontend scripts
+│ └── images/ # Thumbnails / uploaded images
+└── includes/
+└── functions.php # PHP file handling logic
+
+🧠 Technologies Used
+
+Frontend: HTML5, CSS3, JavaScript
+
+Backend: PHP
+
+Storage: JSON File System
+
+Hosting: InfinityFree (Free PHP Hosting)
+
+📊 Future Enhancements
+
+🔒 Payment Gateway Integration (Razorpay/Stripe)
+
+👥 Multi-Admin Role Management
+
+📈 Post Analytics Dashboard
+
+💾 Migration to MySQL or Firebase
+
+🔐 Enhanced Security & Session Management
+
+🧑‍💻 Developer
+
+Author: Ashish Rawat
+Internship Program: Full Stack Web Development — Upskill Campus × UniConverge Technologies Pvt. Ltd.
+Duration: 6 Weeks
+Mentor: The IoT Academy Team
+
+🌐 Connect
+
+📧 Email: your-email@example.com
+
+💼 LinkedIn: linkedin.com/in/yourprofile
+
+🧠 GitHub: github.com/yourusername
+
+🏁 License
+
+This project is released under the MIT License
+.
+Feel free to modify, share, or build upon it for educational or personal use.
