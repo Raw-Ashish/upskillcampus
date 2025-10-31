@@ -1,4 +1,4 @@
-# 🧩 Content Management System (CMS) with Premium Access Feature
+# 🧩 Content Management System (CMS) 
 
 A lightweight, database-free **Content Management System (CMS)** built using **PHP, HTML, CSS, and JavaScript**, designed for small-scale blogs and websites hosted on **free servers** (like InfinityFree).  
 This CMS uses **JSON files** instead of a traditional database, making it fast, portable, and easy to maintain — while also supporting **premium content access** for paid users.
@@ -23,7 +23,7 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 ## 🧱 Core Features
 
 ✅ Admin dashboard to manage posts (title, description, category, and image).  
-✅ Dynamic JSON-based data storage (no MySQL required).  
+✅ Dynamic JSON-based data storage.  
 ✅ Frontend fetches and displays posts automatically.  
 ✅ Premium content lock/unlock feature.  
 ✅ Category-wise and recent-post display.  
@@ -39,7 +39,7 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 - Displays posts, handles interactions, and manages premium content lock/unlock UI.
 
 **2. Application Layer (Backend):**
-- PHP-based CMS logic (CRUD operations)
+- PHP-based CMS logic 
 - Validates input, encodes data to JSON, and manages file operations.
 
 **3. Data Layer (Storage):**
