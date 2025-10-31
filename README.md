@@ -50,7 +50,7 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 
 ## 📂 Folder Structure
 
-/cms-project
+```/cms-project
 │
 ├── index.html                # Homepage (shows posts dynamically)
 ├── admin.php                 # Admin dashboard (form interface)
@@ -62,7 +62,7 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 │   └── images/               # Thumbnails / uploaded images
 │
 └── includes/
-    └── functions.php         # PHP file handling logic
+    └── functions.php         # PHP file handling logic```
 
 ## 🧠 Technologies Used
 Frontend: HTML5, CSS3, JavaScript  
