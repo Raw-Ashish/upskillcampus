@@ -7,7 +7,7 @@ This CMS uses **JSON files** instead of a traditional database, making it fast, 
 
 ## 🚀 Live Demo
 
-🔗 **Demo URL:** [[https://your-demo-link-here.com](https://contentmanagementsystem.free.nf/))]
+🔗 **Demo URL:** [[Live Demo](https://contentmanagementsystem.free.nf/))]
 
 
 ---
