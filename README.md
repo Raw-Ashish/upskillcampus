@@ -9,7 +9,6 @@ This CMS uses **JSON files** instead of a traditional database, making it fast, 
 
 🔗 **Demo URL:** [View Live Project](https://your-demo-link-here.com)
 
-*(Replace the above link with your actual hosting URL once deployed.)*
 
 ---
 
