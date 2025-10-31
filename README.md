@@ -64,3 +64,17 @@ The frontend dynamically fetches and displays posts using JavaScript, while **pr
 │
 └── includes/
     └── functions.php         # PHP file handling logic
+
+## 🧠 Technologies Used
+Frontend: HTML5, CSS3, JavaScript  
+Backend: PHP  
+Storage: JSON File System  
+Hosting: InfinityFree (Free PHP Hosting)
+
+## 🌱 Future Enhancements
+🔒 Payment Gateway Integration (Razorpay/Stripe)  
+👥 Multi-Admin Role Management  
+📊 Post Analytics Dashboard  
+💾 Migration to MySQL or Firebase  
+🛡️ Enhanced Security & Session Management
+
